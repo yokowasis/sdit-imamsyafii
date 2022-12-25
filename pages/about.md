@@ -2,7 +2,7 @@
 layout: page
 title: Tentang SDIT Imam Syafii
 permalink: "/about/"
-image: assets/images/screenshot.png
+image: assets/images/depan.jpg
 ---
 
 Info Singkat Imam Syafii

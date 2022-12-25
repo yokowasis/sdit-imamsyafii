@@ -24,6 +24,12 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
+  wasis:
+    name: Wasis Haryo Sasoko
+    display_name: Wasis Haryo Sasoko
+    avatar: "assets/images/yoko.jpg"
+    email: yokowasis@gmail.com
+    description: "Tukang Bikin Web"
   sal:
     name: Sal
     display_name: Sal
