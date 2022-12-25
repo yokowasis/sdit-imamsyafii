@@ -1,0 +1,53 @@
+---
+layout: page
+title: Contact
+permalink: "/contact/"
+comments: false
+---
+
+<form action="https://formspree.io/{{site.email}}" method="POST">
+  <p class="mb-4">
+    Silakan isi formulir di bawah untuk menghubungi {{site.title}}
+  </p>
+  <div class="form-group row">
+    <div class="col-md-6">
+      <input
+        class="form-control"
+        type="text"
+        name="name"
+        placeholder="Nama*"
+        required
+      />
+    </div>
+    <div class="col-md-6">
+      <input
+        class="form-control"
+        type="email"
+        name="_replyto"
+        placeholder="Nomor WA"
+        required
+      />
+    </div>
+  </div>
+  <textarea
+    rows="8"
+    class="form-control mb-3"
+    name="message"
+    id="message"
+    placeholder="Pesan*"
+    required
+  ></textarea>
+  <input class="btn btn-dark" type="button" id="submit" value="Send" />
+</form>
+
+<script>
+  document.getElementById("submit").addEventListener("click", function () {
+    document.getElementById("submit").value = "Sending...";
+    document.getElementById("submit").disabled = true;
+    const text = document.getElementById("message").value;
+    const nama = document.getElementsByName("name")[0].value;
+    const wa = document.getElementsByName("_replyto")[0].value;
+    const url = `https://api.whatsapp.com/send/?phone={{site.social.whatsapp}}&text=Dari : ${nama}, Pesan : ${text}`;
+    window.open(url, "_blank");
+  });
+</script>
