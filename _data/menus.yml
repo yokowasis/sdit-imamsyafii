@@ -24,3 +24,7 @@ footermenu:
 
   - title: Contact
     url: "contact/"
+
+  - title: Admin
+    external: true
+    url: "https://vscode.dev/github/yokowasis/sdit-imamsyafii/"
