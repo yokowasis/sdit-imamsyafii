@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Contoh Postingan Ke 2"
-author: wasis
+author: yoko
 categories: [Berita]
 image: assets/images/contoh2.jpg
 ---
