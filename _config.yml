@@ -3,7 +3,7 @@ email: yokowasis@gmail.com
 timezone: UTC
 baseurl: "/affiliates-jekyll-theme"
 permalink: "/:title/"
-logo: "assets/images/logo.png"
+logo: "assets/images/logo.jpeg"
 favicon: "assets/images/favicon.ico"
 author: Wasis Haryo Sasoko
 paginate: 30
