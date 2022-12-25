@@ -3,6 +3,13 @@ topmenu:
   - title: Home
     url: ""
 
+  - title: Web Yayasan
+    url: "https://ponpesimamsyafiikobi.sch.id/"
+    external: true
+
+  - title: Contoh
+    url: "Contoh-Postingan/"
+
   - title: Tentang SDIT
     url: "about/"
 
